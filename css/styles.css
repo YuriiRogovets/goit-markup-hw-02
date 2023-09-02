@@ -6,6 +6,79 @@
     --c-text: #434455;
 }
     
+/* Base*/
+body {
+    color: var(--c-text);
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Other*/
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .logo {
-    color: var(--c-brand)
+    color: var(--c-dark)
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo-accent {
+        color: var(--c-brand)
+}
+
+.nav-link {
+    color: var(--c-dark);
+}
+
+.nav-link:hover{
+    color: var(--c-pressed-state);
+}
+
+.contact {
+    color: var(--c-text);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.contact:hover, :focus {
+    color:var(--c-pressed-state)
+}
+
+.hero-section {
+    background-color: var(--c-dark);
+}
+
+.hero-title {
+    color: #FFF;
+    text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 1.12px;
 }
