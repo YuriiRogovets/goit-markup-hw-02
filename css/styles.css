@@ -109,3 +109,18 @@ gap: 10px;
 .hero-button:hover {
     background-color: var(--c-pressed-state);
 }
+
+.feature-title {
+    color: var(--c-hero-bcg);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.feature-text {
+    color: var(--c-text);
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
