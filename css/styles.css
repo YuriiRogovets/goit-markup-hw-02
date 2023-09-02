@@ -1,0 +1,11 @@
+:root {
+    --c-brand: #4D5AE5;
+    --c-pressed-state: #404BBF;
+    --c-dark: #2E2F42;
+    --c-success: #31D0AA;
+    --c-text: #434455;
+}
+    
+.logo {
+    color: var(--c-brand)
+}
