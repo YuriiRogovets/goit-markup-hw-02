@@ -43,8 +43,8 @@ ul {
 }
 
 .logo {
-    color: var(--c-hero-bcg);
-    font-family: Raleway;
+    color: var(--c-brand);
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -53,7 +53,7 @@ ul {
 }
 
 .logo-accent {
-        color: var(--c-brand);
+        color: var(--c-hero-bcg);
 }
 
 .nav-link {
@@ -143,8 +143,8 @@ gap: 10px;
 }
 
 .footer-logo {
-    color: var(--c-light);
-    font-family: Raleway;
+    color: var(--c-brand);
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
