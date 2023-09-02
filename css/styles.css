@@ -124,3 +124,38 @@ gap: 10px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.team-section {
+    background-color: var(--c-light);color: var(--c-hero-bcg);
+}
+
+.team-title {
+    color: var(--c-hero-bcg);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.footer {
+    background-color: var(--c-hero-bcg);
+}
+
+.footer-logo {
+    color: var(--c-light);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    color: var(--c-light);
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
