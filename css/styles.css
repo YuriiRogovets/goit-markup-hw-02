@@ -12,7 +12,6 @@
     --c-modal-bcg:#FCFCFC;
 }
     
-/* Base*/
 body {
     color: var(--c-text);
     font-family: 'Roboto', sans-serif;
@@ -28,7 +27,6 @@ ul {
     list-style-type: none;
 }
 
-/* Other*/
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -106,12 +104,13 @@ align-items: flex-start;
 gap: 10px;
 }
 
-.hero-button:hover {
+.hero-button:hover, :focus {
     background-color: var(--c-pressed-state);
 }
 
 .feature-title {
     color: var(--c-hero-bcg);
+    text-align: center;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -129,8 +128,13 @@ gap: 10px;
     background-color: var(--c-light);color: var(--c-hero-bcg);
 }
 
+.photo-employees {
+    background-color: var(--c-bcg-wite);
+}
+
 .team-title {
     color: var(--c-hero-bcg);
+    text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -150,6 +154,10 @@ gap: 10px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.footer-logo-accent {
+    color: var(--c-light);
 }
 
 .footer-text {
