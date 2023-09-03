@@ -65,15 +65,25 @@ ul {
     color: var(--c-pressed-state);
 }
 
-.contact {
+.nav-link:focus {
+    color: var(--c-pressed-state);
+    background-color: var(--c-bcg-wite);
+}
+
+.mail-phone {
     color: var(--c-text);
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.contact:hover, :focus {
+.mail-phone:hover {
     color:var(--c-pressed-state);
+}
+
+.mail-phone:focus {
+    color: var(--c-pressed-state);
+    background-color: var(--c-bcg-wite);
 }
 
 .hero-section {
