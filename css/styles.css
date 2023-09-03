@@ -51,7 +51,7 @@ ul {
 }
 
 .logo-accent {
-        color: var(--c-hero-bcg);
+    color: var(--c-hero-bcg);
 }
 
 .nav-link {
@@ -73,7 +73,7 @@ ul {
 }
 
 .contact:hover, :focus {
-    color:var(--c-pressed-state)
+    color:var(--c-pressed-state);
 }
 
 .hero-section {
